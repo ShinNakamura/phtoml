@@ -5,5 +5,5 @@
 - プレースホルダーを TOML から読んだ値で埋めて、標準出力へ
 
 ```sh
-cg r -- tests/conf.toml tests/template.txt
+cargo run -- tests/conf.toml tests/template.txt
 ```
